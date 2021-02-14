@@ -1,8 +1,8 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# Simple editor
 
-Simple toolkit for your static websites development.
+It is a simple editor that save the message and loads the message once saved.
 
 ## How to use it?
 
