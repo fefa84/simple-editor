@@ -1,13 +1,48 @@
 @import "~normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
 
 @import "_variables";
-@import "modules/hello.scss";
+
 
 body {
-  background: $wtf;
-  color: #fff;
+
+  background:#F5E9E9;
+  color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family:'open sans';
 }
+
+.form {
+  &__buttons {
+
+    margin-top:32px;
+    display:flex;
+    justify-content:flex-end;
+  }
+  &__textarea{
+    width: 730px;
+    height: 330px;
+    padding:16px;
+  }
+
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #121232;
+  color:#FFFFFF;
+  &--save {
+    background: #A1A4B1;
+    margin-left: 47px;
+    }
+ }
+
+
+
