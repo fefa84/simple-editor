@@ -3,8 +3,14 @@
 
 @import "_variables";
 
+html {
+  box-sizing: border-box;
+}
+* , *:before, *:after {
+ box-sizing: inherit;
+}
 
-body {
+body{
 
   background:#F5E9E9;
   color: #000000;
@@ -13,18 +19,26 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family:'open sans';
+  
+}
+
+.editor{
+  width:100%;
+  max-width:730px;
+  &__heading{
+    font-size:44px;
+  }
 }
 
 .form {
   &__buttons {
-
     margin-top:32px;
     display:flex;
     justify-content:flex-end;
   }
   &__textarea{
-    width: 730px;
-    height: 330px;
+    width: 100%;
+    min-height: 330px;
     padding:16px;
   }
 
