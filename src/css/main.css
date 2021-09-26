@@ -1,0 +1,54 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #F5E9E9;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "open sans";
+}
+
+.editor {
+  width: 100%;
+  max-width: 730px;
+}
+.editor__heading {
+  font-size: 44px;
+}
+
+.form__buttons {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
+}
+.form__textarea {
+  width: 100%;
+  min-height: 330px;
+  padding: 16px;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #121232;
+  color: #FFFFFF;
+}
+.button--save {
+  background: #A1A4B1;
+  margin-left: 47px;
+}
+
+/*# sourceMappingURL=main.css.map */
